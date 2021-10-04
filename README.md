@@ -10,3 +10,4 @@ Features of this list :
 * Get the list's head or tail pointer with (list name)->head / (list name)->tail.
 * Find an element in the list using **find(int val)** function returning boolean.
 * Merge two linked list together with **merge(List* list)** function.
+* Generate list with n random elements using **random(int n)** function.
