@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <algorithm>
+#include <time.h>
 
 using namespace std;
 
@@ -106,8 +107,16 @@ public:
         });
 
         return found;
-
         
+    }
+    
+    void random(int n){
+
+     srand(time(0));
+     for(int i = 0; i<n ; i++){
+         add(rand());
+     }
+
     }
 
 };
